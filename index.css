@@ -1,0 +1,144 @@
+/*ESTILO GERAL DA PÁGINA*/
+body{
+    background-color: #e4dace;
+    height: 100vh; /*preencherá toda a tela*/
+    font-family: "Reddit Sans", sans-serif;;
+    font-size: 25px;
+    padding: 60px 2%;
+    color: #631f16;
+}
+
+/*CRIA UM PADRÃO DE TAMANHO E MARGEM*/
+.interface{
+    max-width: 1280px;
+    margin: auto;
+}
+
+/*MENU DE LINKS*/
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+a{
+    color: #ee6a22;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #498eaf;
+}
+
+
+/*HEADER*/
+
+img{
+    padding: 2%;
+    width: 350px;
+    height: 350px;
+    border-radius: 100% ;
+}
+
+.img{
+    text-align: center;
+}
+
+
+header{
+    padding: 60px 4%;
+    text-align: justify;
+}
+
+#titulo{
+    text-align: center;
+}
+
+/*PÁGINA PRINCIPAL*/
+#sobremim{
+    padding: 60px, 4%;
+ text-align: justify;
+}
+
+#educacao{
+    padding: 60px 4%;
+    text-align: justify;
+}
+
+#portfolio{
+    padding: 60px 4%;
+    text-align: justify;
+}
+#falecomigo{
+    padding: 60px 4%;
+    text-align: justify;
+}
+
+#contato{
+  text-align: center;
+}
+
+/*EDIÇÃO DO FORMULÁRIO*/
+section.formulario{
+    padding: 60px 4%;
+}
+
+form{
+    max-width: 500px; /*não ultrapassará essa medida em nenhuma tela*/
+    margin: 0 auto;
+    display: block;
+}
+
+form input::placeholder{
+    color:#631f16;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #498faf40;
+    border: none;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 10px;
+    color: #631f16;    
+    
+}
+
+form textarea{
+    resize: none;
+}
+
+
+#enviar{
+    
+    width: 200px;
+    color: #631f16;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 850;
+    background-color: #e5bb4b ;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    box-shadow: 10px 5px 15px #ee6a22; /*descolamento vertical, deslocamento nas laterais, espalhamento, cor */
+   
+}
+
+
+/* Estilo do rodapé */
+
+footer .rodape{
+    padding: 60px 4%;
+    font-size: 20px;
+}
+
+
+
+

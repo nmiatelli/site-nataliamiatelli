@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> <!-- cria a conexão com o arquivo de css-->
+    
+    <!--link para utilizar fonte direto do GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Natalia Miatelli</title>
+</head>
+<body>
+
+
+    <div class="interface"> <!--classe criada para delimitar as bordas do site-->
+        
+        <nav> <!-- criando o menu do site -->
+            
+            <ul><!-- onde os links do menu são direcionados -->
+                <li><a href="#sobremim">Sobre Mim</a></li> 
+                <li><a href="#educacao">Formação Educacional</a></li> 
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>            
+            </ul>
+
+        </nav>
+
+        <header> <!--criando o cabeçalho do site-->
+            <div class="img">
+                <img src="./images/Avatar_Natalia.jpg" width="250" height="250px">
+            </div>
+
+            <h1 id="titulo">Olá mundo!</h1>
+            
+        </header>
+
+        <!-- Parte principal onde estão as sessões do site -->
+        <main>
+            <div class="interface"></div>
+                <section id="sobremim">
+                    <h3>Sobre Mim</h3>
+                    <p>Me chamo <strong>Natalia</strong>, tenho 30 anos, moro em Indaiatuba e ainda estou no início da minha trajetória como desenvolvedora. Essa área nunca foi minha primeira opção de carreira, apesar de ter sido uma pequena dev na época do Orkut e dos blogs, só depois de tentar outras áreas eu acreditei na minha capacidade de ingressar em TI. Além dos meu estudos acadêmicos, eu gosto de tocar instrumentos musicais e ler livros, fazer exercícios e cozinhar. Sou viciada em música e não passo um dia sem ouvir algo que gosto.  </p>
+                </section>
+                
+                <section id="educacao">
+                    <h3>Formação Educacional & Idiomas</h3>
+                    <p>Estou no terceiro semestre do curso de Análise e Desenvolvimento de Sistemas, apesar disso ainda mantenho minhas opções abertas no que diz respeito à area dentro de TI que pretendo seguir.</p> 
+                    <p>Em 2021 participei do Bootcamp do Santander em parceria com a DIO, foi o primeiro contato que tive com programação. Em 2022 fui selecionada para participar de um programa oferecido pela Share People Hub em parceria com a John Deere, exclusivo para mulheres, tive oportunidade de aprender o básico de JavaScript e atualmente é a linguagem que mais gosto.</p>
+
+                    <p>Também estou estudando sobre segurança cibernética, pois é uma área que me interessa bastante.
+                    Meu nível de inglês é avançado e meu espanhol básico para leitura.
+                    </p>
+
+                    <p>Em meu <a href="https://www.linkedin.com/in/natalia-miatelli/" target="_blank">LinkedIn</a> você encontrará outras informações sobre cursos concluídos e alguns certificados.</p>
+                </section>
+                <section id="portfolio">
+                    <h3>Portfólio</h3>
+                    <p>Apesar de estar estudando há um tempinho, o meu portfólio não é tão robusto. Mas você pode ver alguns códigos em meu <a href="https://github.com/nmiatelli" target="_blank">GitHub</a>. Em breve terei mais projetos para exibir.</p>
+                
+                </section>
+
+                <section id="falecomigo">
+                    <h3>Fale comigo</h3>
+                    <p>Espero que tenho gostado do meu primeiro website! Caso tenha alguma dúvida ou queira entrar em contato, é só deixar uma mensagem no espaço abaixo. Até breve!</p>
+                
+                </section>
+
+                <!-- Início do formualário -->
+                <section class="formulario">
+                    
+                    
+                        <form>            
+                            <h3 id="contato">Envie sua Mensagem</h3>
+                            
+                            
+                            <label>Nome</label>
+                            <input type="text" name="nome" id="nome"placeholder="Digite seu nome" maxlength="50">
+                            
+
+                            <br><br>
+
+                        
+                            <label>Email</label>
+                            <input type="email" name="email" id="email" placeholder="Digite o seu email"  maxlength="50" required>
+                            
+
+                            <br><br>
+
+                            
+                            <label>Mensagem</label>
+                            <textarea>Digite aqui a sua mensagem</textarea>
+                            
+                            <br><br>
+
+                            <!-- Comando que cria o botão de enviar o formulário -->
+                            <input type="submit" name="enviar" id="enviar">
+                        </form>
+
+                        
+                    </div>
+                    
+                </section>
+            </div>
+
+
+        </main>
+
+        <!-- Rodapé da página -->
+        <footer>
+            <div class="interface">
+                
+                    <div class="rodape">
+                        <p><a href="mailto:3521711@alunouninter.com"></a>3521711@alunouninter.com</p>
+                    </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
